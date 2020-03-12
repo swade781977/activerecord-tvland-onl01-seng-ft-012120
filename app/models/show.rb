@@ -13,6 +13,5 @@ class Show < ActiveRecord::Base
     a = format_arr.join(' ')
     arr = []
     arr << a
-    binding.pry
   end
 end
