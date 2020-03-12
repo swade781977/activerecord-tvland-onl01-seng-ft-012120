@@ -10,8 +10,8 @@ class Show < ActiveRecord::Base
     first_name = a[0].first_name
     last_name = a[0].last_name
     arr = [first_name, last_name]
-    characters = arr.join(' ')
-    characters
+    arr.join(' ')
+    arr
     binding.pry
   end
 end
