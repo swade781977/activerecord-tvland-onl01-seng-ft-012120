@@ -11,5 +11,6 @@ class Show < ActiveRecord::Base
     last_name = a[0].last_name
     arr = [first_name, last_name]
     arr.join(' ')
+    binding.pry
   end
 end
